@@ -4,78 +4,140 @@
   <meta charset="UTF-8">
   <title>Dk Online Shop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #333;
     }
+
     header {
-      background: #1877f2;
+      background: #0d6efd;
       color: white;
-      padding: 15px;
+      padding: 20px;
       text-align: center;
       font-size: 22px;
-      font-weight: bold;
+      font-weight: 600;
     }
+
     .container {
-      padding: 15px;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
     }
+
     .card {
       background: white;
-      border-radius: 10px;
-      padding: 15px;
-      margin-bottom: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     }
-    .btn {
-      display: block;
-      text-align: center;
-      background: #25D366;
-      color: white;
-      padding: 12px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 10px;
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
     }
-    footer {
-      text-align: center;
-      padding: 10px;
+
+    .card p {
       font-size: 14px;
       color: #666;
     }
+
+    .btn {
+      display: block;
+      text-align: center;
+      padding: 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    .btn-facebook {
+      background: #1877f2;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      color: #888;
+    }
+
+    .product {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .product img {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .price {
+      color: #0d6efd;
+      font-weight: 600;
+      margin-top: 5px;
+    }
   </style>
 </head>
+
 <body>
 
-<header>Dk Online Shop</header>
+  <header>
+    Dk Online Shop
+  </header>
 
-<div class="container">
+  <div class="container">
 
-  <div class="card">
-    <h3>👗 Ladies & 👔 Gents Collection</h3>
-    <p>Quality Dress | Best Price | Trusted Online Shop</p>
+    <div class="card">
+      <h2>👗 Ladies & 👔 Gents Collection</h2>
+      <p>Quality Dress | Best Price | Trusted Online Shop</p>
+    </div>
+
+    <div class="card">
+      <h2>🔥 Featured Product</h2>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Dress">
+        <div>
+          <strong>Stylish Dress</strong>
+          <div class="price">৳ 1,250</div>
+        </div>
+      </div>
+
+      <a class="btn btn-whatsapp" href="https://wa.me/01837786320">
+        Order via WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>📘 Facebook Page</h2>
+      <p>Follow our page for latest updates & offers</p>
+      <a class="btn btn-facebook" href="https://www.facebook.com/share/17jDeAbrb7/">
+        Visit Facebook Page
+      </a>
+    </div>
+
   </div>
 
-  <div class="card">
-    <h3>📞 Order via WhatsApp</h3>
-    <p>Click below to chat and order</p>
-    <a class="btn" href="https://wa.me/8801837786320">WhatsApp Now</a>
-  </div>
-
-  <div class="card">
-    <h3>📘 Facebook Page</h3>
-    <a class="btn" style="background:#1877f2" href="https://www.facebook.com/share/17jDeAbrb7/">Visit Page</a>
-  </div>
-
-</div>
-
-<footer>
-© 2026 Dk Online Shop
-</footer>
+  <footer>
+    © 2026 Dk Online Shop
+  </footer>
 
 </body>
 </html>
-<style>   body {     font-family: 'Poppins', sans-serif;     background: #f4f6f9;   }   .btn {     background: #25D366;     color: white;   } </style>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
