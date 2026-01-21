@@ -1,0 +1,28 @@
+<div class="card">
+  <h2>🛍️ Our Products</h2>
+
+  <div class="product" style="margin-bottom:15px;">
+    <img src="dress1.jpg" alt="Ladies Dress">
+    <div>
+      <strong>Ladies Stylish Dress</strong>
+      <div class="price">৳ 1,250</div>
+      <a class="btn btn-whatsapp"
+         href="https://wa.me/01837786320?text=I%20want%20to%20order%20Ladies%20Stylish%20Dress">
+         Order Now
+      </a>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="shirt1.jpg" alt="Gents Shirt">
+    <div>
+      <strong>Gents Casual Shirt</strong>
+      <div class="price">৳ 950</div>
+      <a class="btn btn-whatsapp"
+         href="https://wa.me/01837786320?text=I%20want%20to%20order%20Gents%20Casual%20Shirt">
+         Order Now
+      </a>
+    </div>
+  </div>
+
+</div>
